@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.InicioFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jogo da Velha"
+        android:textAlignment="center"
+        android:layout_marginTop="80dp"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:src="@drawable/velha"
+       android:layout_marginLeft="75dp"
+       android:layout_marginTop="180dp"/>
+
+    <ImageButton
+        android:id="@+id/buttonPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="510dp"
+        android:src="@drawable/play"
+        android:background="@color/white"/>
+
+</FrameLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="cinza">#d9d9d9</color>
+
+    <!-- Rosa -->
+    <color name="rosa_50">#fbe2f0</color>
+    <color name="rosa_100">#f5b6da</color>
+    <color name="rosa_200">#f186c0</color>
+    <color name="rosa_300">#ef4fa6</color>
+    <color name="rosa_400">#d602ee</color>
+    <color name="rosa_500">#ef0078</color>
+    <color name="rosa_600">#dd0074</color>
+    <color name="rosa_700">#c7006e</color>
+    <color name="rosa_800">#b1006a</color>
+    <color name="rosa_900">#880061</color>
+
+    <!-- Lilas -->
+    <color name="roxo_50">#eee6ff</color>
+    <color name="roxo_100">#d2c2fd</color>
+    <color name="roxo_200">#b39afd</color>
+    <color name="roxo_300">#916eff</color>
+    <color name="roxo_400">#714cfe</color>
+    <color name="roxo_500">#6002ee</color>
+    <color name="roxo_800">#5c00d2</color>
+    <color name="roxo_900">#5300e8</color>
+
+
+
+    <!-- Verde -->
+    <color name="verde_100">#defabb</color>
+    <color name="verde_200">#c6f68d</color>
+    <color name="verde_300">#aaf255</color>
+    <color name="verde_400">#90ee02</color>
+    <color name="verde_500">#75e900</color>
+    <color name="verde_600">#61d800</color>
+    <color name="verde_700">#41c300</color>
+    <color name="verde_800">#09af00</color>
+    <color name="verde_900">#008b00</color>
+</resources>

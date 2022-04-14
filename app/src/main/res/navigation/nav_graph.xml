@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/inicioFragment">
+
+
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="com.example.jogovelha.fragment.InicioFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_fragmentinicio" >
+        <action
+            android:id="@+id/action_inicioFragment_to_jogoFragment"
+            app:destination="@id/jogoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/jogoFragment"
+        android:name="com.example.jogovelha.fragment.JogoFragment"
+        android:label="Jogo"
+        tools:layout="@layout/fragment_jogo" >
+        <action
+            android:id="@+id/action_jogoFragment_to_inicioFragment"
+            app:destination="@id/inicioFragment" />
+        <action
+            android:id="@+id/action_jogoFragment_to_prefFragment"
+            app:destination="@id/prefFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/prefFragment"
+        android:name="com.example.jogovelha.fragment.PrefFragment"
+        android:label="Preferências"
+        tools:layout="@layout/fragment_pref" />
+</navigation>
